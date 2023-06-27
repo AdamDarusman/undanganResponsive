@@ -33,7 +33,7 @@ export default function Kolom() {
     };
   }, []);
 
-  const sendGreeting = async (e) => {
+  const sendGreeting = async (e: any) => {
     e.preventDefault();
     setLoading(true);
     try {
